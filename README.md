@@ -1,0 +1,1 @@
+# plastyk-lodz
