@@ -42,6 +42,7 @@ cursor:pointer;
  .button-ask{
      display:inline-block;
      flex-shrink: 0;
+     text-decoration: none;
      position: relative;
    border:none;
    background: none;
@@ -54,7 +55,7 @@ cursor:pointer;
      position:absolute;
      box-sizing: border-box;
      top: -16px;
-     right: -16px;
+     right: -37px;
      z-index:-1;
     width: 219px;
     height: 63px;
@@ -165,6 +166,8 @@ margin-bottom:44px;
   }
   .task2-header{
     font-size:48px;
+    text-align:center;
+margin-bottom:44px;
       }
       .task-desc{
           font-size:30px;
@@ -172,3 +175,58 @@ margin-bottom:44px;
           line-height:48px;
           margin:0;
       }
+      .button-text{
+        font-size:24px;
+        font-weight:bold;
+        color:white;
+      }
+      .button{
+        border:none;
+        background: none;
+        width:144px;
+        height:60px;
+        padding:0;
+        align-self:flex-end;
+        position:relative;
+        margin-top:120px;
+        margin-right:50px;
+      }
+      .button:before{
+        content:"";
+     display:block;
+     position:absolute;
+     box-sizing: border-box;
+     top: 0px;
+     right: -50px;
+     z-index:-1;
+     width: 264px;
+     height: 76px;
+    background: #EC691B;
+    border-radius: 16px;
+    transition: transform 0.15s ease-out 0s;
+      }
+      .button:after{
+        content:"";
+       position: absolute;
+       width: 264px;
+height: 76px;
+       border: 2px solid rgb(0, 0, 0);
+       box-sizing: border-box;
+       border-radius: 16px;
+       top:-12px;
+       left:-60px;
+       z-index:1;
+       transition: transform 0.15s ease-out 0s;
+    }
+    .button:hover:after{
+      cursor:pointer;
+     transform: translateY(10px) translateX(-10px);
+  }
+  .button:hover:before{
+     cursor:pointer;
+     transform: translateY(-10px) translateX(10px);
+    
+ }
+ .link{
+   text-decoration:none;
+ }
