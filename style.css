@@ -114,6 +114,12 @@ grid-column-gap: 20px;
     grid-column-gap: 20px;
    }
 }
+@media (max-width:768px){
+  .hello{
+   padding:70px 30px 80px 30px;
+   grid-column-gap: 40px;
+  }
+}
  .hello__header{
 font-size:72px;
 margin:0;
@@ -121,6 +127,11 @@ margin:0;
  @media (max-width:1024px){
   .hello__header{
     font-size:64px;
+  }
+}
+@media (max-width:768px){
+  .hello__header{
+    font-size:36px;
   }
 }
  .hello__content{
@@ -131,6 +142,12 @@ margin:0;
  @media (max-width:1024px){
   .hello__content{
     font-size:24px;
+  }
+}
+@media (max-width:768px){
+  .hello__content{
+    font-size:18px;
+    line-height: 30px;
   }
 }
  .logo-big{
@@ -177,6 +194,11 @@ margin:0;
      font-size:64px;
     }
   }
+  @media (max-width:768px){
+    .tasks__header{
+     font-size:36px;
+    }
+  }
   .tasks-box{
 display:grid;
 grid-template-columns: 1fr 1fr;
@@ -199,6 +221,11 @@ justify-items: center;
       min-height:680px;
     }
   }
+  @media (max-width:768px){
+    .frame{
+      min-height:520px;
+    }
+  }
   .task-header{
 font-size:48px;
 text-align:center;
@@ -210,6 +237,12 @@ margin-bottom:44px;
       margin-bottom:22px;
     }
   }
+  @media (max-width:768px){
+    .task-header{
+      font-size:24px;
+      margin-bottom:18px;
+    }
+  }
   .task2-header{
     font-size:48px;
     text-align:center;
@@ -219,6 +252,12 @@ margin-bottom:44px;
         .task2-header{
           font-size:36px;
           margin-bottom:22px;
+        }
+      }
+      @media (max-width:768px){
+        .task2-header{
+          font-size:24px;
+          margin-bottom:18px;
         }
       }
       .task-desc{
@@ -233,6 +272,12 @@ margin-bottom:44px;
           line-height:40px;
         }
       }
+      @media (max-width:768px){
+        .task-desc{
+          font-size:16px;
+          line-height:30px;
+        }
+      }
       .button-text{
         font-size:24px;
         font-weight:bold;
@@ -241,6 +286,12 @@ margin-bottom:44px;
       @media (max-width:1023px){
         .button-text{
           font-size:20px;
+
+        }
+      }
+      @media (max-width:768px){
+        .button-text{
+          font-size:16px;
 
         }
       }
@@ -261,6 +312,12 @@ margin-bottom:44px;
           background-color: #EC691B;
           border-radius: 16px;
           cursor:pointer;
+        }
+      }
+      @media (max-width:768px){
+        .button{
+          margin-left:80px;
+          margin-top:40px;
         }
       }
       .button:before{
