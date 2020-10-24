@@ -23,6 +23,12 @@ z-index:10000;
     min-height:40px;
   }
 }
+@media (max-width:375px){
+  .topbar{
+    padding:14px;
+    min-height:40px;
+  }
+}
 .logo{
 margin-right:30px;
 }
@@ -55,9 +61,15 @@ margin-right:30px;
     margin-right:16px;
   }
 }
+@media (max-width:375px){
+  .special{
+    margin:0;
+  }
+}
 .icons{
 display:flex;
 justify-content: space-around;
+align-items:center;
 width:400px;
 position:relative;
 }
@@ -66,6 +78,7 @@ position:relative;
     justify-content: space-between;
   }
 }
+
 .fb:hover{
 cursor:pointer;
 }
