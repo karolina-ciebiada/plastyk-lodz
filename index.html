@@ -13,6 +13,7 @@
 <img src="img/logo.svg" class="logo"/>
 <p class="logo__text"> ZESPÓŁ </br>PAŃSTWOWYCH SZKÓŁ PLASTYCZNYCH </br> im. Tadeusza Makowskiego w Łodzi</p>
 </div>
+<span class="special">75 lecie Łódszkiego Plastyka</span> 
 <div class="icons">
     <a class="link" href="https://www.facebook.com/plastyklodz" target="_blank"><img src="img/fb.svg" class="fb"/></a>
 <a class="link" href="http://www.plastyklodz.pl" target="_blank"><img src="img/web.svg" class="web"/></a>
@@ -23,7 +24,7 @@
     <section class="hello">
         <div>
         <header class="hello__header">Cześć!</header>
-        <p class="hello__content">Zapraszamy Cię do wzięcia udziału w zadaniach jakie przygotowała dla Ciebie nasza szkoła. Wszystkie informacje dotyczące zasad znajdziejsz poniżej. Powodzenia!</p>
+        <p class="hello__content"> Z okazji 75 urodzin Łódzkiego Plastyka, zapraszamy Cię do wzięcia udziału w zadaniach jakie przygotowała dla Ciebie nasza szkoła. Wszystkie informacje dotyczące zasad znajdziejsz poniżej. Powodzenia!</p>
         </div>
         <img src="img/Group.png" class="logo-big"/>
     </section>
@@ -32,19 +33,124 @@
         <header class="tasks__header">Zadania</header>
         <div class="tasks-box">
             <div class="frame">
-                <p class="task-header">Rebus</p>
-                <p class="task-desc">W salach naszej szkoły schowały się literki! Odszukaj je wszystkie i odgadnij zaszyfrowane hasło. Swoją odpowiedź wpisz w wyznaczone okienko pod zadaniem i kliknij “wyślij”. </p>
-                <button class="button"><a class="link" href="#"><p class="button-text">Biorę udział!</p></a></button>
+                <p class="task-header">Wzór na maseczkę</p>
+                <p class="task-desc">Codziennie dbając o bezpieczeństwo, zakładamy maseczki, a gdyby tak sprawić, żeby ten obowiązek był przyjemniejszy? Waszym zadaniem będzie zaprojektowanie wzoru, który chcielibyście nosić.</p>
+                <a class="link" href="#pattern"><button class="button"><p class="button-text">Biorę udział!</p></button></a>
             </div>
             <div class="frame">
-            <p class="task2-header">Rzeźba z masy solnej</p>
-            <p class="task-desc">Wykonaj z masy solnej rzeźbę. Żeby nie było tak łatwo, musi to być rzeź! Wykonaj pracę, zaimportuj kilka zdjęć i kliknij "wyślij". </p>
-            <button class="button"><a class="link" href="#"><p class="button-text">Biorę udział!</p></a></button>
+            <p class="task2-header">Maska z papieru</p>
+            <p class="task-desc">W związku ze zbliżającym się halloween zapraszamy do wykonania papier machy. Przygotowaliśmy w punktach sposób wykonania maski. Nie jest to trudne, a więc do dzieła! </p>
+            <a class="link" href="#masks"><button class="button"><p class="button-text">Biorę udział!</p></button></a>
             </div>
             </div>
-        </div>
-        </div>
     </section>
+
+    <section class="masks" id="masks">
+<header class="masks__header">Maska z papieru</header>
+<p class="masks__theme">Tematem maski jest wybrany potwór z bajki lub filmu.</p>
+
+<div class="masks-box">
+    <div class="frame-white">
+<ul class="masks__recipe"> <p class="list-title">Do wykonania maski będzie potrzebne nam:</p>
+    <li class="masks__li">skrawki gazety</li>
+    <li class="masks__li">klej do drewna i papieru (np. klej PVA) rozcieńczony wodą 1:1</li>
+    <li class="masks__li">pędzelek</li>
+    <li class="masks__li">papier toaletowy lub chusteczki</li>
+    <li class="masks__li">oliwka lub wazelina</li>
+    <li class="masks__li">nożyczki</li>
+    <li class="masks__li">dzirkacz do papieru</li>
+    <li class="masks__li">sznurek</li>
+</ul>
+</div>
+<div class="frame-white">
+<p class="way-title">Sposób wykonania:</p>
+<p class="mask-way">Smarujemy buzię modela (np. mamy, taty, siostry) oliwką, następnie nakładamy na twarz warstwę z chusteczek omijając oczy i usta (musi być otwór do patrzenia i oddychania) przy kolejnych warstwach smarujemy klejem i nakładamy gazetę.
+Do uzyskania sztywnej maski potrzebne jest 5 warstw (im więcej warstw tym mocniejsza jest maska), czekamy chwilę do przeschnięcia i zdejmujemy.
+ Odkładamy do całkowitego wyschnięcia. Po wyschnięciu wystarczy dociąć obrys maski, otwór na oczy i usta. Z lewej i prawej strony maski dziurkujemy oraz przekladamy sznurek. Przechodzimy do zdobienia! Tutaj możecie poszaleć używając farb, cekinów lub wybranych przez siebie rzeczy.</p>
+</div>
+</div>
+
+<h2 class="form-header">Wyślij nam swoją pracę!</h2>
+<form class="gform pure-form pure-form-stacked form-box" method="POST" data-email="example@email.net"
+action="https://script.google.com/macros/s/AKfycbzZZiIxc6fMYS-vd9LFRHeB9yqZH2328x_19ujj/exec">
+
+<div class="form-elements">
    
+    <label for="name" class="form__label" >Imię i nazwisko: </label>
+    <input id="name" name="name" class="form__input" />
+
+    <label for="email" class="form__label">E-mail:</label>
+    <input id="email" name="email" type="email" value=""
+    required class="form__input"/>
+    <label for="company" class="form__label">Nazwa szkoły:</label>
+  <input type="text" id="company" name="company"  class="form__input">
+  </div>
+  <div class="form-elementss">
+      <label for="file" class="form__label">Załącz zdjęcia:</label>
+    <input type="file" name="file" accept="image/x-png,image/gif,image/jpeg" class="form__input-image" />
+  <input type="checkbox" name="agreement" value="agree" required id="check" class="fotm__input--check">
+  <label for="check" class="form__label--check">Oświadczam, że zapoznałem/am się i akceptuję zapisy Polityki Prywatności.</label>
+
+  <div class="submit">
+  <button class="form__submit"> Prześlij</button></div>
+</div>
+    <span class="email-invalid" style="display:none">
+      Must be a valid email address</span>
+
+
+<!-- Customise the Thankyou Message People See when they submit the form: -->
+<div class="thankyou_message" style="display:none;">
+  <h2>Dziękujemy!</h2>
+</div>
+</form>
+    </section>
+    <section class="pattern" id="pattern">
+        <header class="masks__header">Wzór na maseczkę</header>
+        <p class="pattern-theme">Tematem jest, oczywiście sztuka!</p>
+        <div class="pattern-box">
+        <p class="pattern-content">Stwórz wzór, który według Ciebie nadawałby się do umieszczenia na maseczce. 
+            Możesz zainspirować się ulubionymi obrazami, grafikami
+             lub nawet fotografiami różnych artystów.
+             Jednak pamiętaj, że rysunek powinien być oryginalny, wykonany w całości przez Ciebie.</br></br>
+             Co do techniki wykonania pracy - wszystkie ruchy dozwolone! Zaprojektowany przez Ciebie wzór może być rysunkiem manualnym, bądź cyfrowym. Jeśli czujesz się na siłach, możesz spróbować wyhaftować go na kawałku materiału lub od razu na maseczce. Wybór należy do Ciebie. Im efekt twojej pracy będzie ciekawszy, tym lepiej!
+             Skończone prace wystarczy sfotografować, po czym zaimportować plik i przesłać go w wyznaczonym niżej miejscu.</br></br>
+             Życzymy miłej zabawy i powodzenia!</p>
+</div>
+
+<h2 class="form-header">Wyślij nam swoją pracę!</h2>
+<form class="gform pure-form pure-form-stacked form-box" method="POST" data-email="example@email.net"
+action="https://script.google.com/macros/s/AKfycbzZZiIxc6fMYS-vd9LFRHeB9yqZH2328x_19ujj/exec">
+
+<div class="form-elements">
+   
+    <label for="name" class="form__label" >Imię i nazwisko: </label>
+    <input id="name" name="name" class="form__input" />
+
+    <label for="email" class="form__label">E-mail:</label>
+    <input id="email" name="email" type="email" value=""
+    required class="form__input"/>
+    <label for="company" class="form__label">Nazwa szkoły:</label>
+  <input type="text" id="company" name="company"  class="form__input">
+  </div>
+  <div class="form-elementss">
+      <label for="file" class="form__label">Załącz zdjęcia:</label>
+    <input type="file" name="file" accept="image/x-png,image/gif,image/jpeg" class="form__input-image" />
+  <input type="checkbox" name="agreement" value="agree" required id="check" class="fotm__input--check">
+  <label for="check" class="form__label--check">Oświadczam, że zapoznałem/am się i akceptuję zapisy Polityki Prywatności.</label>
+
+  <div class="submit">
+  <button class="form__submit"> Prześlij</button></div>
+</div>
+    <span class="email-invalid" style="display:none">
+      Must be a valid email address</span>
+
+
+<!-- Customise the Thankyou Message People See when they submit the form: -->
+<div class="thankyou_message" style="display:none;">
+  <h2>Dziękujemy!</h2>
+</div>
+</form>
+    </section>
+   <script src="scripts.js"></script>
 </body>
 </html>
