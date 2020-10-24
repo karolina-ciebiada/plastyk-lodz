@@ -342,7 +342,7 @@ justify-items: center;
   @media (max-width:425px){
     .frame{
       padding:10px 22px 10px 22px;
-      min-height:400px;
+      min-height:420px;
       margin-bottom:30px;
     }
   }
