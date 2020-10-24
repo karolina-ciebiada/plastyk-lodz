@@ -346,6 +346,13 @@ justify-items: center;
       margin-bottom:30px;
     }
   }
+  @media (max-width:375px){
+    .frame{
+      padding:10px 22px 10px 22px;
+      min-height:480px;
+      margin-bottom:30px;
+    }
+  }
   .task-header{
 font-size:48px;
 text-align:center;
