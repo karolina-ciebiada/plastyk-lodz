@@ -66,6 +66,20 @@ margin-right:30px;
     margin:0;
   }
 }
+.specials{
+  color:#EC691B;
+  font-weight: bold;
+}
+@media (max-width:425px){
+  .specials{
+    font-size:14px;
+  }
+}
+@media (max-width:375px){
+  .specials{
+    margin:0;
+  }
+}
 .icons{
 display:flex;
 justify-content: space-around;
@@ -288,7 +302,7 @@ margin:0;
   .tasks__header{
     font-size:72px;
     margin-top:100px;
-    margin-bottom:100px;
+    margin-bottom:10px;
   }
   @media (max-width:1024px){
     .tasks__header{
@@ -303,7 +317,8 @@ margin:0;
   @media (max-width:425px){
     .tasks__header{
      font-size:30px;
-     margin-bottom:60px;
+     margin-bottom:20px;
+     margin-top:60px;
     }
   }
   .tasks-box{
@@ -385,6 +400,33 @@ margin-bottom:44px;
         .task2-header{
           font-size:24px;
           margin-bottom:18px;
+        }
+      }
+      .tasks-cont{
+        font-size:24px;
+        margin-bottom:80px;
+        margin-top:4px;
+        text-align:center;
+        padding:0 28px 0 28px;
+        line-height:34px;
+      }
+      @media (max-width:1024px){
+        .tasks-cont{
+          font-size:20px;
+          margin-bottom:40px;
+        }
+      }
+      @media (max-width:768px){
+        .tasks-cont{
+          font-size:18px;
+          line-height:28px;
+        }
+      }
+      @media (max-width:425px){
+        .tasks-cont{
+          font-size:16px;
+          line-height:28px;
+          padding:0 16px 0 16px;
         }
       }
       .task-desc{
@@ -551,6 +593,7 @@ color:white;
    font-size:24px;
    font-weight: bold;
    margin-bottom:80px;
+   text-align: center;
  }
  @media (max-width:1024px){
   .masks__theme{
@@ -649,6 +692,11 @@ border-radius: 75px;
     padding:26px;
   }
 }
+@media (max-width:320px){
+  .frame-white{
+    min-height:780px;
+  }
+}
  .way-title{
    font-size:18px;
    font-weight: bold;
@@ -690,6 +738,7 @@ font-size:36px;
 font-weight: 400;
 margin-top:100px;
 margin-bottom:60px;
+text-align:center;
  }
  @media (max-width:768px){
   .form-header{
@@ -870,7 +919,7 @@ border-radius: 75px;
 @media (max-width:375px){
   .pattern-box{
     padding:18px;
-    height: 720px;
+    height: 780px;
   }
 }
 .pattern-theme{
@@ -909,4 +958,49 @@ border-radius: 75px;
     line-height: 28px;
   }
 }
-
+.form-text{
+  color:white;
+  text-align:center;
+  padding:30px 100px 0px 100px;
+  line-height:36px;
+  font-size:24px;
+}
+@media (max-width:1024px){
+  .form-text{
+    font-size:20px; 
+    padding:30px 80px 0px 80px;
+  }
+}
+@media (max-width:768px){
+  .form-text{
+    font-size:18px; 
+    padding:30px 60px 0px 60px;
+  }
+}
+@media (max-width:425px){
+  .form-text{
+    font-size:16px; 
+    padding:30px 24px 0px 24px;
+  }
+}
+.specialsss{
+  font-weight:bold;
+  background-color: #EC691B;
+  padding:6px;
+  border-radius:16px;
+}
+@media (max-width:1024px){
+  .specialsss{
+    font-size:20px; 
+  }
+}
+@media (max-width:768px){
+  .specialsss{
+    font-size:18px; 
+  }
+}
+@media (max-width:425px){
+  .specialsss{
+    font-size:16px; 
+  }
+}
