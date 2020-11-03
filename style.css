@@ -325,6 +325,7 @@ margin:0;
 display:grid;
 grid-template-columns: 1fr 1fr;
 column-gap:50px;
+row-gap: 50px;
 align-items: center;
 justify-items: center;
   }
@@ -570,6 +571,7 @@ height: 76px;
  .masks__header{
   font-size:72px;
   margin-top:60px;
+  text-align: center;
 color:white;
  }
  @media (max-width:1024px){
@@ -1003,4 +1005,22 @@ border-radius: 75px;
   .specialsss{
     font-size:16px; 
   }
+}
+.masa-way{
+  color:white;
+  line-height:34px;
+  margin:40px 20px;
+  font-size:20px;
+  text-align:center;
+}
+@media (max-width:1024px){
+ .masa-way{
+   font-size:16px;
+ }
+}
+@media (max-width:768px){
+ .masa-way{
+   font-size:14px;
+   line-height:30px;
+ }
 }
