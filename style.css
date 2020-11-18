@@ -1059,3 +1059,33 @@ border-radius: 75px;
     height:180px; 
   }
  }
+
+
+ .photo-pion{
+  margin:30px;
+}
+@media (max-width:1024px){
+  .photo-pion{
+  width:700px;
+  height:880px;  
+  }
+ }
+ @media (max-width:768px){
+  .photo-pion{
+    width:500px;
+    height:580px; 
+    margin:10px;
+  }
+ }
+ @media (max-width:500px){
+  .photo-pion{
+    width:380px;
+    height:490px; 
+  }
+ }
+ @media (max-width:375px){
+  .photo-pion{
+    width:280px;
+    height:380px; 
+  }
+ }
