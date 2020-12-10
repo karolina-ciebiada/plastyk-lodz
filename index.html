@@ -24,15 +24,21 @@
     <section class="hello">
         <div>
         <header class="hello__header">Cześć!</header>
-        <p class="hello__content"> Z okazji <span class="specials">75 urodzin Łódzkiego Plastyka</span>, zapraszamy Cię do wzięcia udziału w zadaniach jakie przygotowała dla Ciebie nasza szkoła. Na realizację każdego pojawiającego się zadania czekamy do <span class="specials">10 grudnia!</span> O terminie rozstrzygnięcia konkursu poinformujemy Was wkrótce. Wszystkie informacje dotyczące zasad znajdziejsz poniżej. Powodzenia!</p>
+        <p class="hello__content"> Z okazji <span class="specials">75 urodzin Łódzkiego Plastyka</span>, zapraszamy Cię do wzięcia udziału w zadaniach jakie przygotowała dla Ciebie nasza szkoła. Na realizację każdego pojawiającego się zadania czekamy do <span class="specials">22 grudnia!</span> O terminie rozstrzygnięcia konkursu poinformujemy Was wkrótce. Wszystkie informacje dotyczące zasad znajdziejsz poniżej. Powodzenia!</p>
         </div>
         <img src="img/Group.png" class="logo-big"/>
     </section>
         <section class="tasks">
             <img src="img/scroll.svg" class="scroll"/>
         <header class="tasks__header">Zadania</header>
+        <p class="attention">Przedłużamy termin nadsyłania prac do 22 grudnia! Rozstrzygnięcie odbędzie się 24 stycznia 2021 roku.</p>
         <p class="tasks-cont">W każdy <span class="specials">wtorek i czwartek</span> będziemy publikować nowe zadania! Zachęcamy do odwiedzania naszej witryny i brania udziału w zabawach ponieważ czekają na Was również nagrody!</p>
         <div class="tasks-box">
+          <div class="frame">
+            <p class="task-header">Kartka urodzinowa</p>
+            <p class="task-desc">Czy jest lepszy sposób na zobrazowanie swoich życzeń od kartki urodzinowej? Tort, balony, kolorowe konfetti. Tyle możliwości, aby upiększyć zwykły kawałek papieru i nadać mu wyjątkowe znaczenie.</p>
+            <a class="link2" href="#card"><button class="button"><p class="button-text">Biorę udział!</p></button></a>
+        </div>
             <div class="frame">
                 <p class="task-header">Rebus</p>
                 <p class="task-desc">W salach naszej szkoły schowały się literki! Razem tworzą hasło związane z naszą szkołą. Jeśli uda wam się znaleźć wszystkie, czeka was niespodzianka! Zdjęcia wstawiane będą sukcesywnie. Powodzenia! :)</p>
@@ -236,6 +242,8 @@ action="https://script.google.com/macros/s/AKfycbzZZiIxc6fMYS-vd9LFRHeB9yqZH2328
               <img src="img/p.jpg" class="photo">
               <img src="img/l.jpg" class="photo-pion">
               <img src="img/ee.jpg" class="photo">
+              <img src="img/n3.jpg" class="photo">
+              <img src="img/e3.jpg" class="photo">
         </div>
         
         <h2 class="form-header">Wyślij nam hasło!</h2>
@@ -272,6 +280,51 @@ action="https://script.google.com/macros/s/AKfycbzZZiIxc6fMYS-vd9LFRHeB9yqZH2328
         </div>
         </form>
             </section>
+            <section class="pattern" id="card">
+              <header class="masks__header">Kartka urodzinowa</header>
+              <p class="pattern-theme"></p>
+              <div class="pattern-box">
+              <p class="pattern-content">
+                Macie za zadanie stworzyć kartkę z okazji urodzin plastyka. Ozdóbcie ją czymkolwiek, co kojarzy wam się ze sztuką lub konkretnie naszą szkołą. Obojętne czy będą to znajome postaci, obrazy czy rzeźby odwzorowane na kartkach. Przedstawienie palety, kolorów czy po prostu radości, która nam towarzyszy podczas urodzin. Może to być równie dobrze wasz własny, oryginalny pomysł. Na pewno cokolwiek uda wam się stworzyć, będzie niesamowite!
+              </br>
+                Dozwolone są techniki zarówno cyfrowe, jak i tradycyjne.
+                Jeśli nie macie możliwości wyciąć i kolorować, równie dobrze możecie narysować swoją kartkę w paincie lub innym programie.
+                Z tradycyjnych metod macie dostępne kredki, farby, robić coś z powycinanych kawałków papieru, bibuły czy nawet kawałków folii i innych materiałów. Poprzerabiać śmieszne wycinki z gazet lub fotografii. Dajcie upust swojej wyobraźni!</p>
+      </div>
+      
+      <h2 class="form-header">Wyślij nam swoją pracę!</h2>
+      <form class="gform pure-form pure-form-stacked form-box" method="POST" data-email="example@email.net"
+      action="https://script.google.com/macros/s/AKfycbzZZiIxc6fMYS-vd9LFRHeB9yqZH2328x_19ujj/exec">
+      
+      <div class="form-elements">
+         
+          <label for="name" class="form__label" >Imię i nazwisko: </label>
+          <input id="name" name="name" required class="form__input"/>
+      
+          <label for="email" class="form__label">E-mail:</label>
+          <input id="email" name="email" type="email" value=""
+          required class="form__input"/>
+          <label for="company" class="form__label">Nazwa szkoły:</label>
+        <input type="text" id="school" name="school" class="form__input">
+        </div>
+        <div class="form-elementss">
+        <input type="checkbox" name="agreement" value="agree" required id="check" class="fotm__input--check">
+        <label for="check" class="form__label--check">Oświadczam, że zapoznałem/am się i akceptuję zapisy Polityki Prywatności.</label>
+      
+        <div class="submit">
+        <button class="form__submit"> Prześlij</button></div>
+      </div>
+      <p class="form-text">Po wypełnieniu formularza prześlij w załączniku zdjęcia swojej pracy na adres e-mail: <span class="specialsss">plastyk.lodzki2020@gmail.com</span>. Pamiętaj o podpisaniu się imieniem i nazwiskiem w temacie mail'a! </p>
+          <span class="email-invalid" style="display:none">
+            Must be a valid email address</span>
+      
+      
+      <!-- Customise the Thankyou Message People See when they submit the form: -->
+      <div class="thankyou_message" style="display:none;">
+        <h2>Dziękujemy!</h2>
+      </div>
+      </form>
+          </section>
 
    <script src="scripts.js"></script>
 </body>
