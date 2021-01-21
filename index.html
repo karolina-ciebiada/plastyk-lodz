@@ -45,6 +45,11 @@
                 <a class="link2" href="#rebus"><button class="button"><p class="button-text">Biorę udział!</p></button></a>
             </div>
             <div class="frame">
+              <p class="task-header">Makusie</p>
+              <p class="task-desc">Patron naszej szkoły, Tadeusz Makowski, malował ludziki podobne do uroczych pacynek – pajacyków! Każdy chciałby mieć takiego przyjaciela. Spróbujcie zrobić własnego, papierowego Makusia!</p>
+              <a class="link2" href="#makusie"><button class="button"><p class="button-text">Biorę udział!</p></button></a>
+          </div>
+            <div class="frame">
                 <p class="task-header">Rzeźba z masy solnej</p>
                 <p class="task-desc">Na pewno większości z nas masa solna kojarzy się z czasami dzieciństwa. Dzięki temu rozwijaliśmy swoją kreatywność i manualne zdolności, czego efektem były najróżniejsze dekoracje i figurki. A gdyby tak na chwilę do tego wrócić?</p>
                 <a class="link2" href="#masa"><button class="button"><p class="button-text">Biorę udział!</p></button></a>
@@ -168,6 +173,47 @@ action="https://script.google.com/macros/s/AKfycbzZZiIxc6fMYS-vd9LFRHeB9yqZH2328
 </form>
     </section>
 
+    <section class="pattern" id="makusie">
+      <header class="masks__header">Papierowe Makusie</header>
+      <p class="pattern-theme">Tematem są ludziki z obrazów Tadeusza Makowskiego. Spróbuj zrobić właśnego z papieru!</p>
+        <div class="rebus-zdj">
+          <img src="img/makusie.png" class="photo">
+          <img src="img/makus.jpg" class="photo-pion">
+</div>
+
+<h2 class="form-header">Wyślij nam swoją pracę!</h2>
+<form class="gform pure-form pure-form-stacked form-box" method="POST" data-email="example@email.net"
+action="https://script.google.com/macros/s/AKfycbzZZiIxc6fMYS-vd9LFRHeB9yqZH2328x_19ujj/exec">
+
+<div class="form-elements">
+ 
+  <label for="name" class="form__label" >Imię i nazwisko: </label>
+  <input id="name" name="name" required class="form__input"/>
+
+  <label for="email" class="form__label">E-mail:</label>
+  <input id="email" name="email" type="email" value=""
+  required class="form__input"/>
+  <label for="company" class="form__label">Nazwa szkoły:</label>
+<input type="text" id="school" name="school" class="form__input">
+</div>
+<div class="form-elementss">
+<input type="checkbox" name="agreement" value="agree" required id="check" class="fotm__input--check">
+<label for="check" class="form__label--check">Oświadczam, że zapoznałem/am się i akceptuję zapisy Polityki Prywatności.</label>
+
+<div class="submit">
+<button class="form__submit"> Prześlij</button></div>
+</div>
+<p class="form-text">Po wypełnieniu formularza prześlij w załączniku zdjęcia swojej pracy na adres e-mail: <span class="specialsss">plastyk.lodzki2020@gmail.com</span>. Pamiętaj o podpisaniu się imieniem i nazwiskiem w temacie mail'a! </p>
+  <span class="email-invalid" style="display:none">
+    Must be a valid email address</span>
+
+
+<!-- Customise the Thankyou Message People See when they submit the form: -->
+<div class="thankyou_message" style="display:none;">
+<h2>Dziękujemy!</h2>
+</div>
+</form>
+  </section>
     
     <section class="masks" id="masa">
         <header class="masks__header">Rzeźba z masy solnej</header>
